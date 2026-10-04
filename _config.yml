@@ -1,0 +1,4 @@
+# Legacy GitHub Pages builds this site with Jekyll. Exclude contributor
+# markdown so it is not copied into the published site.
+exclude:
+  - "*.md"
