@@ -233,3 +233,21 @@ nav a {
     font-weight: 600;
     font-size: 0.95rem;
 }
+
+.about-portrait {
+    display: block;
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+    max-width: 140px;
+    max-height: 140px;
+    aspect-ratio: 1 / 1;
+    margin: 0.2rem 0 1.05rem;
+    border: 2px solid var(--line);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 8px 18px rgba(28, 25, 23, 0.08);
+}
