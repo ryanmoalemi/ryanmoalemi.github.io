@@ -77,151 +77,151 @@ a:hover {
 nav ul {
     display: flex;
     gap: 0.35rem;
-  nav a:hover,
-  nav a[aria-current="page"] {
-      background: var(--surface);
-      color: var(--ink);
-      box-shadow: inset 0 0 0 1px var(--line);
-  }
-
-  main {
-      padding: 0.5rem 0 3rem;
-  }
-
-  .hero,
-  .panel {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: 1.25rem;
-      box-shadow: var(--shadow);
-      padding: 2rem 1.75rem;
-  }
-
-  .hero h1,
-  .panel h1,
-  article h1 {
-      font-family: var(--serif);
-      font-size: clamp(2rem, 4vw, 2.6rem);
-      line-height: 1.15;
-      letter-spacing: -0.03em;
-      margin: 0 0 0.75rem;
-  }
-
-  .lede {
-      font-size: 1.15rem;
-      color: var(--muted);
-      margin: 0 0 1.5rem;
-      max-width: 36rem;
-  }
-
-  .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-  }
-
-  .button {
-      display: inline-block;
-      padding: 0.7rem 1.1rem;
-      border-radius: 999px;
-      background: var(--accent);
-      color: #fff;
-      text-decoration: none;
-      font-weight: 650;
-  }
-
-  .button:hover {
-      background: #115e59;
-      color: #fff;
-  }
-
-  .button-secondary {
-      background: transparent;
-      color: var(--ink);
-      box-shadow: inset 0 0 0 1px var(--line);
-  }
-
-  .button-secondary:hover {
-      background: #fff;
-      color: var(--ink);
-  }
-
-  .eyebrow {
-      display: inline-block;
-      margin-bottom: 0.75rem;
-      padding: 0.2rem 0.65rem;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: #0f766e;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-  }
-
-  .post-list {
-      list-style: none;
-      margin: 1.25rem 0 0;
-      padding: 0;
-      display: grid;
-      gap: 0.85rem;
-  }
-
-  .post-card {
-      display: block;
-      padding: 1.1rem 1.2rem;
-      border-radius: 1rem;
-      background: #fff;
-      border: 1px solid var(--line);
-      text-decoration: none;
-      color: inherit;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .post-card time,
-  .meta {
-      color: var(--muted);
-      font-size: 0.92rem;
-  }
-
-  article p {
-      max-width: 40rem;
-  }
-
-  .site-footer {
-      padding: 1.25rem 0 2.5rem;
-      color: var(--muted);
-      font-size: 0.92rem;
-  }
-
-  .site-footer .wrap {
-      border-top: 1px solid var(--line);
-      padding-top: 1.25rem;
-  }
-
-  @media (max-width: 40rem) {
-      .hero,
-      .panel {
-            padding: 1.5rem 1.2rem;
-      }
-  }
-  
-
-  .post-card:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow);
-      color: inherit;
-  }
-
-  .post-card strong {
-      display: block;
-      font-family: var(--serif);
-      font-size: 1.2rem;
-      margin-bottom: 0.2rem;
-  }
-  
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: inset 0 0 0 1px var(--line);
+}
+
+main {
+    padding: 0.5rem 0 3rem;
+}
+
+.hero,
+.panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+    box-shadow: var(--shadow);
+    padding: 2rem 1.75rem;
+}
+
+.hero h1,
+.panel h1,
+article h1 {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 4vw, 2.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.75rem;
+}
+
+.lede {
+    font-size: 1.15rem;
+    color: var(--muted);
+    margin: 0 0 1.5rem;
+    max-width: 36rem;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7rem 1.1rem;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 650;
+}
+
+.button:hover {
+    background: #115e59;
+    color: #fff;
+}
+
+.button-secondary {
+    background: transparent;
+    color: var(--ink);
+    box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.button-secondary:hover {
+    background: #fff;
+    color: var(--ink);
+}
+
+.eyebrow {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: #0f766e;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.post-list {
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.85rem;
+}
+
+.post-card {
+    display: block;
+    padding: 1.1rem 1.2rem;
+    border-radius: 1rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.post-card time,
+.meta {
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+article p {
+    max-width: 40rem;
+}
+
+.site-footer {
+    padding: 1.25rem 0 2.5rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.site-footer .wrap {
+    border-top: 1px solid var(--line);
+    padding-top: 1.25rem;
+}
+
+@media (max-width: 40rem) {
+    .hero,
+    .panel {
+          padding: 1.5rem 1.2rem;
+    }
+}
+
+
+.post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    color: inherit;
+}
+
+.post-card strong {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
 }
 
 nav a {
