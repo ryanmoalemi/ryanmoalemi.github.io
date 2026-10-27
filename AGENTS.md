@@ -15,3 +15,7 @@ Do not use em dashes. When a title needs a separator, use ` | `.
 Fact-check titles, meta descriptions, alt text, and structured data on AI-assisted content before publishing.
 
 Never bump dates without a real content change.
+
+## Feed
+
+`feed.xml` is built from post meta tags by `scripts/build_feed.py` (runs in Actions on push). New posts need `article:published_time`, `og:title`, `og:url` and a meta description.

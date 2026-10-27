@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ryan Moalemi | Blog</title>
+  <subtitle>Writing from Ryan Moalemi. Latest posts first.</subtitle>
+  <link href="https://ryanmoalemi.blog/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ryanmoalemi.blog/" rel="alternate" type="text/html"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <id>https://ryanmoalemi.blog/</id>
+  <updated>2026-09-17T00:00:00Z</updated>
+  <author><name>Ryan Moalemi</name><uri>https://ryanmoalemi.blog/about.html</uri></author>
+  <icon>https://ryanmoalemi.blog/favicon-32.png</icon>
+  <entry>
+    <title>The Family Story I Finally Decided to Investigate</title>
+    <link href="https://ryanmoalemi.blog/blog/jewish-or-jewish-part-1.html" rel="alternate" type="text/html"/>
+    <id>https://ryanmoalemi.blog/blog/jewish-or-jewish-part-1.html</id>
+    <published>2026-09-17T00:00:00Z</published>
+    <updated>2026-09-17T00:00:00Z</updated>
+    <summary>Part 1 of 6: Jewish or Jew-ish? A visit to a Rancho Santa Fe synagogue sent me looking for one woman in my family tree.</summary>
+  </entry>
+</feed>
