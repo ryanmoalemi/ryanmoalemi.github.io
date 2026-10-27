@@ -4,3 +4,4 @@ Disallow: /AGENTS.md
 Disallow: /README.md
 
 Sitemap: https://ryanmoalemi.blog/sitemap.xml
+# Atom feed: https://ryanmoalemi.blog/feed.xml
