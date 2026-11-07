@@ -6,15 +6,23 @@
   <link href="https://ryanmoalemi.blog/" rel="alternate" type="text/html"/>
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <id>https://ryanmoalemi.blog/</id>
-  <updated>2026-09-17T00:00:00Z</updated>
+  <updated>2026-11-06T00:00:00Z</updated>
   <author><name>Ryan Moalemi</name><uri>https://ryanmoalemi.blog/about.html</uri></author>
   <icon>https://ryanmoalemi.blog/favicon-32.png</icon>
+  <entry>
+    <title>What Grandmommy Remembered</title>
+    <link href="https://ryanmoalemi.blog/blog/jewish-or-jewish-part-2-grandmommy.html" rel="alternate" type="text/html"/>
+    <id>https://ryanmoalemi.blog/blog/jewish-or-jewish-part-2-grandmommy.html</id>
+    <published>2026-11-06T00:00:00Z</published>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>Grandmommy always knew her mother Dorothy was Jewish. A family conversation explains why Dorothy kept quiet and how Shapiro became Spears.</summary>
+  </entry>
   <entry>
     <title>The Family Story I Finally Decided to Investigate</title>
     <link href="https://ryanmoalemi.blog/blog/jewish-or-jewish-part-1.html" rel="alternate" type="text/html"/>
     <id>https://ryanmoalemi.blog/blog/jewish-or-jewish-part-1.html</id>
     <published>2026-09-17T00:00:00Z</published>
     <updated>2026-09-17T00:00:00Z</updated>
-    <summary>Part 1 of 6: Jewish or Jew-ish? A visit to a Rancho Santa Fe synagogue sent me looking for one woman in my family tree.</summary>
+    <summary>Part 1 of 3: Jewish or Jew-ish? A visit to a Rancho Santa Fe synagogue sent me looking for one woman in my family tree.</summary>
   </entry>
 </feed>
